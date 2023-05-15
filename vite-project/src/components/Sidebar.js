@@ -10,6 +10,8 @@ function Sidebar() {
     { label: 'Counter', path: '/counter' },
   ];
 
+  console.log('Hello')
+
   const renderedLinks = links.map((link) => {
     return (
       <Link
